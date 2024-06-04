@@ -1,1 +1,4 @@
 ﻿Minutes will be shown here!
+
+04/06/24:
+Vandaag hebben we de passen geupdate om het lab in te komen. De opstelling is bekeken en werkbaar gemaakt. Met meneer Sprik besproken hoe we het project aan willen pakken: De eerste dingen om te onderzoeken zijn; Onderzoek doen aan geluid delay per microfoon en hiermee de calibratie afstellen, de basis van de golfvergelijking doornenem, Fourier (powerspectrum), Beamforming en trillingen in materialen. Verder is de Github opgezet en werkbaar gemaakt. 

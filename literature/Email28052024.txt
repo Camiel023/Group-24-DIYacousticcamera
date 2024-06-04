@@ -1,0 +1,57 @@
+Dear students,
+your project on a 'DIY Acoustic Camera' starts next week. 
+The experimental work for the project will be in the DLab/Makerspace in the big hall of the D-building.
+To get access to that space your student card needs to be activated.
+To be able to activate your card, I will need your name, studentnumber and the number on your card.
+ 
+From the coordinator I got your email addresses @student.uva.nl:
+atom.levinson
+camiel.van.der.marel
+sam.moerdijk.moerdijk
+jasper.nierse
+
+Below you will find a short description of the project with some links as a starter.
+See you next week.
+Regards,
+Rudolf Sprik
+
+Do It Yourself Acoustic Camera
+==============================
+An acoustic camera can record sound using an array of microphones and overlap the sound sources with a visual image to show where it is coming from. The recordings from the microphone array are analyzed by using the physics of wave propagation. 
+
+In this project a Do-It-Yourself acoustic camera is made based on a 4x4 array of microphones (UMA-16 from MiniDSP) and a Raspberry Pi. The hardware is available as well as python notebooks to get you started.
+After the intro you can use your camera to do your own experiment. 
+For example detect hissing sounds to make a leak detector.
+
+Youtube:
+Steve Mould:  https://www.youtube.com/watch?v=QtMTvsi-4Hw
+CAE kickstarter: https://www.youtube.com/watch?v=-VmPZeYx2II
+
+Find many other examples by searching for 'Acoustic Camera'
+Also try ChatGPT ....
+
+Projects based on UMA-16 array:
+DIY project by navat:  https://navat.substack.com/p/diy-acoustic-camera-using-uma-16
+
+Master thesis from Italy:
+Dario DeLucia, Implementation of a low-cost acoustic camera using arrays of MEMS microphones, 2020.
+https://www.politesi.polimi.it/retrieve/84d6b8b9-be88-4655-8f34-f15b6699fe08/2021_12_De%20Lucia.pdf
+
+Software:
+https://www.acoular.org/
+https://www.sciencedirect.com/science/article/pii/S0003682X16302808?via%3Dihub
+
+Jupyter Notebooks for the project (available soon)
+
+Some references:
+https://en.wikipedia.org/wiki/Acoustic_camera
+https://www.researchgate.net/publication/235957582_Perspectives_of_the_Acoustic_Camera
+
+Fundamentals of Acoustic Beamforming
+Leandro de Santana
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiRsdmsjYOFAxXe8gIHHVJ4Dn8QFnoECCEQAQ&url=https%3A%2F%2Fwww.sto.nato.int%2Fpublications%2FSTO%2520Educational%2520Notes%2FSTO-EN-AVT-287%2FEN-AVT-287-04.pdf&usg=AOvVaw22m9Azt5ChFdssv0tjDKs3&opi=89978449
+
+Guidance:
+Rudolf Sprik
+Tijs van Roon
+

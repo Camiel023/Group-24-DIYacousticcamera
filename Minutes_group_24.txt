@@ -6,3 +6,9 @@ De opstelling is bekeken en werkbaar gemaakt.
 Met meneer Sprik besproken hoe we het project aan willen pakken: De eerste dingen om te onderzoeken zijn; Onderzoek doen aan geluid delay per microfoon en hiermee de
 calibratie afstellen, de basis van de golfvergelijking doornenem, Fourier (powerspectrum), Beamforming en trillingen in materialen.
 Verder is de Github opgezet en werkbaar gemaakt. 
+
+
+05/06/24
+Vandaag hebben wij een inventarisatie gemaakt en hiemee een planning voor de eerste twee weken te maken.
+We hebben onderzocht wat Delay and Sum beamforming is en duidelijk gemaakt wat de begrippen main lobe en side lobe zijn. 
+We zijn er achter gekomen met de hulp van meneer Sprik dat het oorspronkelijke meet onderzoek (Het localiseren van een breuk in een metalen buis) (waarschijnlijk) niet mogelijk is. 

@@ -12,3 +12,12 @@ Verder is de Github opgezet en werkbaar gemaakt.
 Vandaag hebben wij een inventarisatie gemaakt en hiemee een planning voor de eerste twee weken te maken.
 We hebben onderzocht wat Delay and Sum beamforming is en duidelijk gemaakt wat de begrippen main lobe en side lobe zijn. 
 We zijn er achter gekomen met de hulp van meneer Sprik dat het oorspronkelijke meet onderzoek (Het localiseren van een breuk in een metalen buis) (waarschijnlijk) niet mogelijk is. 
+
+Na een overleg met meneer Sprik zijn we tot de conclussie gekomen dat het interessant is om onderzoek te doen aan de triangel (Waar in de triangel is de geluidsbron).
+
+Hier zijn deze onderzoekspunten uit gekomen:
+    Hoe ziet het golfmodel in een triangel eruit? (Gebogen metalen voorwerp)
+    Hoe meet de AC locatie vanuit een 4x4 grid.
+    Hoe werkt de code
+        Hoe zien de onder en boventonen van een triangel eruit?
+        Hoe linken we de video aan de audio?

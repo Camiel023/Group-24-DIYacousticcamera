@@ -18,6 +18,6 @@ Na een overleg met meneer Sprik zijn we tot de conclussie gekomen dat het intere
 Hier zijn deze onderzoekspunten uit gekomen:
     Hoe ziet het golfmodel in een triangel eruit? (Gebogen metalen voorwerp)
     Hoe meet de AC locatie vanuit een 4x4 grid.
-    Hoe werkt de code
-        Hoe zien de onder en boventonen van een triangel eruit?
-        Hoe linken we de video aan de audio?
+    Hoe werkt de code;
+        - Hoe zien de onder en boventonen van een triangel eruit?
+        - Hoe linken we de video aan de audio?

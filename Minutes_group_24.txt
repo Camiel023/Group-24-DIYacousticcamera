@@ -25,5 +25,5 @@ Hier zijn deze onderzoekspunten uit gekomen:
 06/06/24
 Vandaag is er gekeken naar de code van de akoestische camera waar een paar eerste test runs zijn gedaan om te kijken hoe de camera's geluid opnemen. Hierbij moet nog worden gekeken hoe het precies werkt en hoe de data geexporteerd kan worden om te onderzoeken.
 Verder is een poging gedaan een wiskundig model op te stellen voor ruimtelijke tijdsverschil bepaling over de gehele 4x4 microfoon opstelling voor een puntbron uitgegaan voor een verweg situatie. 
-    Hier zijn we tot de conclussie gekomen dat aan de hand van een ruimtelijke bepaling de stap van één dimensie naar twee niet mogelijk is. Er is geen onderschijt te maken in de richtingen.
+    Hier zijn we tot de conclusie gekomen dat aan de hand van een ruimtelijke bepaling de stap van één dimensie naar twee niet mogelijk is. Er is geen onderschijt te maken in de richtingen.
 Ook is er een eerste testopstelling voor de triangel bedacht om uit te zoeken waar het geluid in de triangel gepproduceert wordt. 

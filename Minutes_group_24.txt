@@ -37,3 +37,4 @@ maximale datapunten te pakken, maar dat blijkt niet goed te werken. Mogelijk kom
 een stillere locatie. Als dat niet werkt, moeten we een andere manier verzinnen om padlengteverschil te bepalen (zie voor verdere informatie hierover github 
 /onzecode/toevoeging.png).
  
+

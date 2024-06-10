@@ -1,0 +1,16 @@
+Foutenpropogatie (NOG NIET AF!):
+
+def foutenpropogatie(mic1index, mic2index, arec, freq, delta_geleuidssnelheid, delta_afstand, delta_tijd):
+    v = 342.55  
+    d = 0.042  
+    dtime = time_difference(mic1index, mic2index, arec, freq) # Bereking van timedelay, zie p.ipynb 
+    theta = math.acos((v * dtime) / d) # Bereking van theta, zie p.ipynb 
+
+    # Voor het berekenen van de foutenpropogatie gebruik ik de partiële afgeleiden van theta naar de variablen 
+    partiele_theta_deltavelocity = -dtime / (d * math.sqrt(1 - ((v*dtime)/d)**2))
+    partiele_theta_deltadistance = v * dtime / (d**2 * math.sqrt(1 - ((v*dtime)/d)**2))
+    partiele_theta_deltatime = v / (d * math.sqrt(1 - ((v*dtime)/d)**2))
+
+    total_err = math.sqrt((partiele_theta_deltavelocity * delta_geleuidssnelheid)**2 + (partiele_theta_deltadistance * delta_afstand)**2 + (partiele_theta_deltatime * delta_time_err)**2)
+    
+    return total_err

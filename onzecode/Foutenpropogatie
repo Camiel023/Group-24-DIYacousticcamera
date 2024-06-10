@@ -1,4 +1,4 @@
-Foutenpropogatie (NOG NIET AF!):
+Foutenpropogatie (NOG NIET AF!!!):
 
 def foutenpropogatie(mic1index, mic2index, arec, freq, delta_geleuidssnelheid, delta_afstand, delta_tijd):
     v = 342.55  

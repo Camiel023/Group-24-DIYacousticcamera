@@ -1,0 +1,11 @@
+Wed Jun  5 01:45:46 2024: Start
+Name  : cap
+Image : (1920, 1440) pixels
+Audio : 0.7430385487528345s, Fs = 44100Hz
+Grid  : extend = 0.2m, dist = 0.6m, pixels: (41, 41)
+Filter: freq = 3000.0Hz, BW = 1
+ntake : 2
+pause : 1.0s
+{time.ctime()}: take {itake} of {ntake}
+{time.ctime()}: take {itake} of {ntake}
+Wed Jun  5 01:45:54 2024: Done

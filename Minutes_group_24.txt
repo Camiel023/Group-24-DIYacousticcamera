@@ -1,4 +1,4 @@
-﻿Minutes will be shown here!
+Minutes will be shown here!
 
 04/06/24:
 Vandaag hebben we de passen geupdate om het lab in te komen. 
@@ -36,3 +36,4 @@ iets nieuws moet worden verzonnen om het padlengteverschil (tijdsverschil) tusse
 maximale datapunten te pakken, maar dat blijkt niet goed te werken. Mogelijk komt dit ook doordat er te veel ruis in het lab is, dus maandag gaan we proberen te testen op
 een stillere locatie. Als dat niet werkt, moeten we een andere manier verzinnen om padlengteverschil te bepalen (zie voor verdere informatie hierover github 
 /onzecode/toevoeging.png).
+ 

@@ -1,0 +1,3 @@
+The camera used is the Raspberry Pi Camera Module 3 Wide with sensor size 4608-2592 pixels. With Diagonal field of view of 120 degrees giving a field in frame of 102 degrees horizontal and 67 degrees vertical. https://www.raspberrypi.com/products/camera-module-3/
+With the two angles (Hor and vert) derived with P1 it is possible to give a ratio between the angles of the camera and the derived angles to find a "focal point" on the 2d plane on the photo.
+  Because we use the farfield principle it is possible to place the angle in the centre of the camera from where the depth angles are also determined. 

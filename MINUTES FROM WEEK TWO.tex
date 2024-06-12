@@ -25,7 +25,42 @@
 
 \maketitle
 
-\section{07/06/24}
+\section{Week 1}
+04/06/24:
+Vandaag hebben we de passen geupdate om het lab in te komen. 
+De opstelling is bekeken en werkbaar gemaakt.
+Met meneer Sprik besproken hoe we het project aan willen pakken: De eerste dingen om te onderzoeken zijn; Onderzoek doen aan geluid delay per microfoon en hiermee de
+calibratie afstellen, de basis van de golfvergelijking doornenem, Fourier (powerspectrum), Beamforming en trillingen in materialen.
+Verder is de Github opgezet en werkbaar gemaakt.\\
+\\
+05/06/24
+Vandaag hebben wij een inventarisatie gemaakt om hiemee een planning voor de eerste twee weken te maken.
+We hebben onderzocht wat Delay and Sum beamforming is en duidelijk gemaakt wat de begrippen main lobe en side lobe zijn. 
+We zijn er achter gekomen, met de hulp van meneer Sprik, dat het oorspronkelijke meetonderzoek (het localiseren van een breuk in een metalen buis) naar alle waarschijnlijkheid niet mogelijk is. 
+
+Na een overleg met meneer Sprik zijn we tot de conclusie gekomen dat het interessant is om onderzoek te doen aan de triangel (waar in de triangel bevindt zich de geluidsbron?).
+
+Hier zijn deze onderzoekspunten uit gekomen:
+    * Hoe ziet het golfmodel in een triangel eruit? (Gebogen metalen voorwerp)
+    * Hoe meet de AC locatie vanuit een 4x4 grid.
+    * Hoe werkt de code;
+        - Hoe zien de onder en boventonen van een triangel eruit?
+        - Hoe linken we de video aan de audio?\\
+\\
+06/06/24
+Vandaag is er gekeken naar de code van de akoestische camera waar een paar eerste test runs zijn gedaan om te kijken hoe de camera's geluid opnemen. Hierbij moet nog worden gekeken hoe het precies werkt en hoe de data geexporteerd kan worden om vergvolgens te onderzoeken.
+Verder is een poging gedaan een wiskundig model op te stellen voor ruimtelijke tijdsverschil bepaling over de gehele 4x4 microfoon opstelling voor een puntbron uitgegaan voor een verweg situatie. 
+    Hier zijn we tot de conclusie gekomen dat aan de hand van een ruimtelijke bepaling de stap van één dimensie naar twee niet mogelijk is. Er is geen onderscheid te maken in de richtingen.
+Ook is er een eerste testopstelling voor de triangel bedacht om uit te zoeken waar het geluid in de triangel gepproduceert wordt.\\
+\\
+07/06/24
+Vandaag hebben we de wiskunde achter de locatiebepalingen van de geluidsbron (voor nu) afgerond. We realiseerde ons dat het mogelijk zou zijn om de hoeken in twee dimensies
+te bepalen door slim gebruik te maken van microfoons die op dezelfde rij, danwel kolom, liggen. Nadat we de wiskunde uitgepluist hadden, zijn we aan de slag gegaan met de
+code. We hebben besloten om de code zelf te schrijven, omdat we dan meer controle hebben dan wanneer we domweg kopieren. De code is getest en werkt grotendeels, hoewel er
+iets nieuws moet worden verzonnen om het padlengteverschil (tijdsverschil) tussen twee microfoontjes te bepalen. We hadden het idee om simpelweg de afstand tussen de twee
+maximale datapunten te pakken, maar dat blijkt niet goed te werken. Mogelijk komt dit ook doordat er te veel ruis in het lab is, dus maandag gaan we proberen te testen op
+een stillere locatie. Als dat niet werkt, moeten we een andere manier verzinnen om padlengteverschil te bepalen (zie voor verdere informatie hierover github 
+/onzecode/toevoeging.png).
 
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}

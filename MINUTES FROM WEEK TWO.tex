@@ -151,7 +151,7 @@ What's next     &   Error propagation. And eventually, collect data from testing
 Date/Time/Place &  10/06/24, 13.30-14.00, SP\\ \hline
 What            &  Error propagation\\ \hline
 Who             &  SM\\ \hline
-How             &   To calculate the error propagation, I use the partial derivatives of theta to the variables. Then I multiply the partial derivative of theta to a variable by the change in that variable and square it: $$\frac{\partial\theta}{\partial \text{variable}}\cdot\Delta\text{variable}$$ I do this for all variables and then finally take the root of the sum of these squared terms.\\ \hline
+How             &   To calculate the error propagation, I use the partial derivatives of theta to the variables. Then I multiply the partial derivative of theta to a variable by the change in that variable and square it: $$(\frac{\partial\theta}{\partial \text{variable}}\cdot\Delta\text{variable})^2$$ I do this for all variables and then finally take the root of the sum of these squared terms.\\ \hline
 What's next     &  \\ \hline
 \end{tabular}
 \end{table}
@@ -215,33 +215,33 @@ What's next     &  getting to work\\ \hline
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place &  \\ \hline
-What            &  \\ \hline
-Who             &  \\ \hline
-How             &  \\ \hline
-What's next     &  \\ \hline
+Date/Time/Place & 12/06/24, 9.30-13.00 \\ \hline
+What            & Calculations and code to convert calculated angles to pixel coordinates. \\ \hline
+Who             & AL, CM, SM, JN \\ \hline
+How             & JN first made a calculation on paper with the found camera specs. First a ratio pixels to the field of view. These ratio's were converted to a classical coordinate grid from where it was transformed to the coordinates used in the image produced by Python. Then these calculations were turned into code by AL, SM and CM, moreover a code was made with the PIL package to show the spot in the image where the detected sound would be coming from.\\ \hline
+What's next     & Trying it out. \\ \hline
 \end{tabular}
 \end{table}
 
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place &  \\ \hline
-What            &  \\ \hline
-Who             &  \\ \hline
-How             &  \\ \hline
-What's next     &  \\ \hline
+Date/Time/Place &  12/06/24, 14.00-1500\\ \hline
+What            & Trying the code in a room with less noise \\ \hline
+Who             &  AL, CM, SM, JN\\ \hline
+How             & By following the "onderzoeksplan" we will test the code and the hardware. We found that the code doesnt work. \\ \hline
+What's next     & Refining the code and making it work. \\ \hline
 \end{tabular}
 \end{table}
 
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place &  \\ \hline
-What            &  \\ \hline
-Who             &  \\ \hline
-How             &  \\ \hline
-What's next     &  \\ \hline
+Date/Time/Place & 12/06/24, 15.00-1600 \\ \hline
+What            &  Fixing the code\\ \hline
+Who             &  AL, CM, SM, JN\\ \hline
+How             & By trial and error we tried fixing the code. We found that Python doesnt like the resolution from the image made by the "Raspberry Pi Camera Module 3 Wide" so we did the calculation for the scaling again and implemented this in Python. Furthermore the angle given by Python doesn't make sense in the context we did the experiment in.   \\ \hline
+What's next     & Fixing the code \\ \hline
 \end{tabular}
 \end{table}
 

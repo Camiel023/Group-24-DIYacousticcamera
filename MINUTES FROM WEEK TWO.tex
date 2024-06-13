@@ -191,7 +191,7 @@ What's next     &  Writing some code to actually implement the camera to the exi
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place & 11/06/24, 11.00-14.00 / 15.30-16.30 \\ \hline
+Date/Time/Place & 11/06/24, 11.00-14.00 / 15.30-16.30, SP \\ \hline
 What            & Implementing error propagation and adding filters to the code for the array. \\ \hline
 Who             & CM, AL, SM \\ \hline
 How             &  \\ \hline
@@ -204,7 +204,7 @@ What's next     & Finalising the code, linking the camera to the array and testi
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place & 12/06/24, 9.00-9.30 \\ \hline
+Date/Time/Place & 12/06/24, 9.00-9.30, SP \\ \hline
 What            & meeting planning what to do today \\ \hline
 Who             & CM, SM, JN \\ \hline
 How             & A quick meeting to detemine what needs to be done today and dividing who does what \\ \hline
@@ -215,7 +215,7 @@ What's next     &  getting to work\\ \hline
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place & 12/06/24, 9.30-13.00 \\ \hline
+Date/Time/Place & 12/06/24, 9.30-13.00, SP \\ \hline
 What            & Calculations and code to convert calculated angles to pixel coordinates. \\ \hline
 Who             & AL, CM, SM, JN \\ \hline
 How             & JN first made a calculation on paper with the found camera specs. First a ratio pixels to the field of view. These ratio's were converted to a classical coordinate grid from where it was transformed to the coordinates used in the image produced by Python. Then these calculations were turned into code by AL, SM and CM, moreover a code was made with the PIL package to show the spot in the image where the detected sound would be coming from.\\ \hline
@@ -226,7 +226,7 @@ What's next     & Trying it out. \\ \hline
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place &  12/06/24, 14.00-1500\\ \hline
+Date/Time/Place &  12/06/24, 14.00-15.00, SP\\ \hline
 What            & Trying the code in a room with less noise \\ \hline
 Who             &  AL, CM, SM, JN\\ \hline
 How             & By following the "onderzoeksplan" we will test the code and the hardware. We found that the code doesnt work. \\ \hline
@@ -237,7 +237,7 @@ What's next     & Refining the code and making it work. \\ \hline
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place & 12/06/24, 15.00-1600 \\ \hline
+Date/Time/Place & 12/06/24, 15.00-16.00, SP \\ \hline
 What            &  Fixing the code\\ \hline
 Who             &  AL, CM, SM, JN\\ \hline
 How             & By trial and error we tried fixing the code. We found that Python doesnt like the resolution from the image made by the "Raspberry Pi Camera Module 3 Wide" so we did the calculation for the scaling again and implemented this in Python. Furthermore the angle given by Python doesn't make sense in the context we did the experiment in.   \\ \hline
@@ -248,33 +248,46 @@ What's next     & Fixing the code \\ \hline
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place &  \\ \hline
-What            &  \\ \hline
-Who             &  \\ \hline
-How             &  \\ \hline
-What's next     &  \\ \hline
+Date/Time/Place & 12/06/24, 17.00-19.30, SP \\ \hline
+What            & Trying to fix the code \\ \hline
+Who             & CM \\ \hline
+How             & Recalculating the pixel ratio to the field of view. After that small bug fixes. \\ \hline
+What's next     & Further fixing by trial and error.  \\ \hline
+\end{tabular}
+\end{table}
+
+\section{13/06/24}
+
+\begin{table}[H]
+\begin{tabular}{|p{1.5in}|p{4in}|}
+\hline
+Date/Time/Place &  13/06/24, 09.00-12.00\\ \hline
+What            &  testing animation software\\ \hline
+Who             &  SM, AL\\ \hline
+How             &  We just looked around for some good software. We also did some rescearch about the best way to make educational videaos\\ \hline
+What's next     & Making a story board\\ \hline
 \end{tabular}
 \end{table}
 
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place &  \\ \hline
-What            &  \\ \hline
-Who             &  \\ \hline
-How             &  \\ \hline
-What's next     &  \\ \hline
+Date/Time/Place &  13/06/24, 09.00-10.00\\ \hline
+What            &  Looking and trying the code\\ \hline
+Who             &  SM, AL\\ \hline
+How             &  We tried to make some fixes but it didn't work.\\ \hline
+What's next     &  praying\\ \hline
 \end{tabular}
 \end{table}
 
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
-Date/Time/Place &  \\ \hline
-What            &  \\ \hline
-Who             &  \\ \hline
-How             &  \\ \hline
-What's next     &  \\ \hline
+Date/Time/Place & 13/06/24, 11.45-12.10, SP \\ \hline
+What            & Meeting with mister Sprik \\ \hline
+Who             & AL, SM \\ \hline
+How             & Mister Sprik gave advice on the code and told us that by trying to use a steady frequency produced (for instance by a phone) and trying to localize this. The triangle produces a specific frequency for a to short amount of time for the code written at the moment. The frequency produced each time hitting the triangle is also not precisly the same wich results in faulty measurements.   \\ \hline
+What's next     & Making code that localises peaks. By shifting these peaks to make them allign it would be possible to find the $$\Delta t.$$ \\ \hline
 \end{tabular}
 \end{table}
 

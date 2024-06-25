@@ -7,3 +7,4 @@ Welcome to the README. Below you'll find how to navigate this repository.
 * Looking for the summary of our literature? --> literature
 * Looking for the code for our data-analysis? --> code --> p.ipynb
 * Looking for our data? --> TBA
+* Looking for final poster and animation? --> week4

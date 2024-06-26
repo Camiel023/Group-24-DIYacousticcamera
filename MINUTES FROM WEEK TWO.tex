@@ -25,6 +25,8 @@
 
 \maketitle
 
+The link to our GitHub repository: \\ https://github.com/Camiel023/Group-24-DIYacousticcamera
+
 \section{Week 1}
 04/06/24:
 Vandaag hebben we de passen geupdate om het lab in te komen. 
@@ -61,15 +63,19 @@ iets nieuws moet worden verzonnen om het padlengteverschil (tijdsverschil) tusse
 maximale datapunten te pakken, maar dat blijkt niet goed te werken. Mogelijk komt dit ook doordat er te veel ruis in het lab is, dus maandag gaan we proberen te testen op
 een stillere locatie. Als dat niet werkt, moeten we een andere manier verzinnen om padlengteverschil te bepalen (zie voor verdere informatie hierover github 
 /onzecode/toevoeging.png).
+\\
+\\
+
+\noindent \textit{We found the format used above to be very unclear while trying to read it. Thus, we've swapped to a layout with tables and started writing in English so that more people may understand.}
 
 \begin{table}[H]
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
 Date/Time/Place & 07/06/24, 11.00-17.30 \\ \hline
-What            & Writing Python code for the mic array \\ \hline
+What            & Start writing basic Python code for the mic array\\ \hline
 Who             & CM \\ \hline
-How             & First a script on paper to determine how it will work. Then writing it out in Python \\ \hline
-What's next     & I found that the room I am working has to much background noise. We need to test the code in a quit room. \\ \hline
+How             & First worked out some mathematical ideas and then tried to work those out in python. I ended up with a very basic code that should do what we want it to, but while testing it in the lab I got some errors. I'm not sure if this is due to the noise is the lab or due to errors in the code.\\ \hline
+What's next     & We're going to run the code in a quiet room tomorrow. From there I will see what needs to be done.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -93,7 +99,7 @@ Date/Time/Place &  10/06/24, 11.00-11.15/SP\\ \hline
 What            &  Consultation sir Sprik\\ \hline
 Who             &  AL, CM, SM, JN\\ \hline
 How             &  A quick consultation what we will be doing on 10/06.  \\ \hline
-What's next     &  Testing of code\\ \hline
+What's next     &  Testing of code to determine if the code will work\\ \hline
 \end{tabular}
 \end{table}
 
@@ -102,10 +108,10 @@ What's next     &  Testing of code\\ \hline
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
 Date/Time/Place & 10/06/24, 11.30-12.00/SP \\ \hline
-What            &  Testing of code\\ \hline
+What            &  Testing of code in quiet room\\ \hline
 Who             &  AL, CM, SM, JN\\ \hline
-How             &  By testing the code for the acoustic camera in a room with little background noise we tried to determine if the code would work. We found that during the first few test runs the camera picked up a lot of background noise and by reducing the noise we found that the code written by CM functioned. The test setup was determined on location and no data obtained during testing will be used further. \\ \hline
-What's next     &  The code for the mics doesn't work as it should and more coding by CM and AL is needed\\ \hline
+How             &  We tested the code in a quiet room to determine wether the errors were due to noise or the code. We found that during the first few test runs the camera picked up a lot of background noise and by reducing the noise we found that the code written by CM worked as intended. The test setup was determined on location and no data obtained during testing will be used further.\\ \hline
+What's next     &  Because the array is so sensitive to noise, we'll try to find a way to work around this. The code we have written so far\\ \hline
 \end{tabular}
 \end{table}
 \begin{figure}[H]
@@ -152,7 +158,7 @@ Date/Time/Place &  10/06/24, 12.00-13.30, SP\\ \hline
 What            &  Studying literature on the triangle \\ \hline
 Who             &  SM\\ \hline
 How             &  With literature (Github: literature, Triangle.zip) added to Github by Sprik, I tried to educate myself more about the triangle and its sound behavior.\\ \hline
-What's next     &   Error propagation. And eventually, collect data from testing and analyze them to understand noise behavior.\\ \hline
+What's next     &   Trying to calculate the error propagation. And eventually, collect data from testing and analyze the data to understand noise behavior.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -162,8 +168,9 @@ What's next     &   Error propagation. And eventually, collect data from testing
 Date/Time/Place &  10/06/24, 13.30-14.00, SP\\ \hline
 What            &  Error propagation\\ \hline
 Who             &  SM\\ \hline
-How             &   To calculate the error propagation, I use the partial derivatives of theta to the variables. Then I multiply the partial derivative of theta to a variable by the change in that variable and square it: $$(\frac{\partial\theta}{\partial \text{variable}}\cdot\Delta\text{variable})^2$$ I do this for all variables and then finally take the root of the sum of these squared terms.\\ \hline
-What's next     &  \\ \hline
+How             &   To calculate the error propagation, I use the partial derivatives of theta to the variables. Then I multiply the partial derivative of theta to a variable by the change in that variable and square it: $$(\frac{\partial\theta}{\partial \text{variable}}\cdot\Delta\text{variable})^2$$ I do this for all variables and then finally take the root of the sum of these squared terms.\\ 
+\hline 
+What's next     &  Trying to implement the error propagation into the code and helping with adding filters to the code for the array. \hline
 \end{tabular}
 \end{table}
 
@@ -171,10 +178,10 @@ What's next     &  \\ \hline
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
 Date/Time/Place &  10/06/24, 11:00 - 14:00, SP\\ \hline
-What            &  Fixed a bunch of code\\ \hline
+What            &  Added another dimension to the locasation process. Also trying to apply a frequency filter so that we can filter out the noise.\\ \hline
 Who             &  AL, CM\\ \hline
-How             &  while crying.\\ \hline
-What's next     &  more crying\\ \hline
+How             &  Coding while crying.\\ \hline
+What's next     &  We need to test the filter, as well as add errorpropagation in the code.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -186,7 +193,7 @@ What's next     &  more crying\\ \hline
 Date/Time/Place &  11/06/24, 11.00-13.30, SP\\ \hline
 What            &  Researching the specs of the camera used and describing how to find the soundsource\\ \hline
 Who             &  JN\\ \hline
-How             &  By looking up the specs on the Raspberry Pi website and making small sketches of the situation it was possible to find a way to implement the found angles with the microphones code and a picture taken with the camera on the array. \\ \hline
+How             &  By looking up the specs on the Raspberry Pi website and making small sketches of the situation it was possible to find a way to implement the found angles with the microphones code and a picture taken with the camera on the array. Specs can be found on: https://www.raspberrypi.com/products/camera-module-3/ \\ \hline
 What's next     &  Writing some code to actually implement the camera to the existing code written by AL and CM.\\ \hline
 \end{tabular}
 \end{table}
@@ -206,7 +213,7 @@ Date/Time/Place & 11/06/24, 11.00-14.00 / 15.30-16.30, SP \\ \hline
 What            & Implementing error propagation and adding filters to the code for the array. \\ \hline
 Who             & CM, AL, SM \\ \hline
 How             &  \\ \hline
-What's next     & Finalising the code, linking the camera to the array and testing \\ \hline
+What's next     & The filter behaves unexpectedly, because the data without the filter ends up being more accurate than the data with the filter. We might try to fix this, but may also decide to just run our experiments in a more quiet place. The most imporant thing right now is that we connect the camera to the code, so that we can start localizing the source in a picture.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -229,8 +236,8 @@ What's next     &  getting to work\\ \hline
 Date/Time/Place & 12/06/24, 9.30-13.00, SP \\ \hline
 What            & Calculations and code to convert calculated angles to pixel coordinates. \\ \hline
 Who             & AL, CM, SM, JN \\ \hline
-How             & JN first made a calculation on paper with the found camera specs. First a ratio pixels to the field of view. These ratio's were converted to a classical coordinate grid from where it was transformed to the coordinates used in the image produced by Python. Then these calculations were turned into code by AL, SM and CM, moreover a code was made with the PIL package to show the spot in the image where the detected sound would be coming from.\\ \hline
-What's next     & Trying it out. \\ \hline
+How             & We copied prewritten code that takes a pictures into our own code. JN then made a calculation on paper with the found camera specs. First a ratio pixels to the field of view. These ratio's were converted to a classical coordinate grid from where it was transformed to the coordinates used in the image produced by Python. Then these calculations were turned into code by AL, SM and CM, moreover a code was made with the PIL package to show the spot in the image where the detected sound would be coming from.\\ \hline
+What's next     & Trying it out in a quiet room to see if it works.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -240,8 +247,8 @@ What's next     & Trying it out. \\ \hline
 Date/Time/Place &  12/06/24, 14.00-15.00, SP\\ \hline
 What            & Trying the code in a room with less noise \\ \hline
 Who             &  AL, CM, SM, JN\\ \hline
-How             & By following the "onderzoeksplan" we will test the code and the hardware. We found that the code doesn't work. \\ \hline
-What's next     & Refining the code and making it work. \\ \hline
+How             & By following the onderzoeksplan we will test the code and the hardware. We found that the code doesn't work, because the source is localized completely out of the picture.\\ \hline
+What's next     & Fixing this error.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -258,7 +265,7 @@ What's next     & Refining the code and making it work. \\ \hline
 Date/Time/Place & 12/06/24, 15.00-16.00, SP \\ \hline
 What            &  Fixing the code\\ \hline
 Who             &  AL, CM, SM, JN\\ \hline
-How             & By trial and error we tried fixing the code. We found that Python doesn't like the resolution from the image made by the "Raspberry Pi Camera Module 3 Wide" so we did the calculation for the scaling again and implemented this in Python. Furthermore the angle given by Python doesn't make sense in the context we did the experiment in.   \\ \hline
+How             & By trial and error we tried fixing the code. We found that Python doesn't like the resolution from the image made by the "Raspberry Pi Camera Module 3 Wide" so we did the calculation for the scaling again and implemented this in Python. The new scaling is 1920-1440 pixels. Furthermore the angle given by Python doesn't make sense in the context we did the experiment in. We need to try to fix this as well.\\ \hline
 What's next     & Fixing the code \\ \hline
 \end{tabular}
 \end{table}
@@ -267,10 +274,10 @@ What's next     & Fixing the code \\ \hline
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
 Date/Time/Place & 12/06/24, 17.00-19.30, SP \\ \hline
-What            & Trying to fix the code \\ \hline
+What            & Rewriting code for angle to pixel conversion\\ \hline
 Who             & CM \\ \hline
-How             & Recalculating the pixel ratio to the field of view. After that small bug fixes. \\ \hline
-What's next     & Further fixing by trial and error.  \\ \hline
+How             & I suspected the calculation may have been wrong, so I worked it all out again. I found out that we were using the wrong formula, so I put the correct formula into python. After that I made some small bug fixes.\\ \hline
+What's next     & The angle that we find is wrong, so we'll try to rewrite the code so that the time difference is calculated in a different way.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -283,7 +290,7 @@ Date/Time/Place &  13/06/24, 09.00-12.00\\ \hline
 What            &  testing animation software\\ \hline
 Who             &  SM, AL\\ \hline
 How             &  We just looked around for some good software. We also did some research about the best way to make educational videos\\ \hline
-What's next     & Making a story board\\ \hline
+What's next     & Making a story board to make sure to have a script for the animation\\ \hline
 \end{tabular}
 \end{table}
 
@@ -293,8 +300,8 @@ What's next     & Making a story board\\ \hline
 Date/Time/Place &  13/06/24, 09.00-10.00\\ \hline
 What            &  Looking and trying the code\\ \hline
 Who             &  SM, AL\\ \hline
-How             &  We tried to make some fixes but it didn't work.\\ \hline
-What's next     &  praying\\ \hline
+How             &  We tried to make some fixes by testing the code. We made some edits on the code but it didn't work out so we reversed everything.\\ \hline
+What's next     &  Praying\\ \hline
 \end{tabular}
 \end{table}
 
@@ -315,7 +322,7 @@ What's next     & Making code that localises peaks. By shifting these peaks to m
 Date/Time/Place & 13/06/24, 12.00-15.00, SP \\ \hline
 What            & Trying to implement the advice given by mister Sprik and trying to fix the code \\ \hline
 Who             & SM, CM, JN \\ \hline
-How             & By trial and error trying to find where the error may lie. We did this by playing a constant sound of 1900HZ through a phone on different random locations around the array. \\ \hline
+How             & By trial and error trying to find where the error may lie. We did this by playing a constant sound of 1900HZ through a phone on different random locations around the array.\\ \hline
 What's next     &  The results for the output angles for the plot of the image didn't line up with the location of the source. Also the spot marked as the source kept being placed in the centre of the image. CM's reasoning for this was that the code written for the sound peak filtering/detection is faulty  \\ \hline
 \end{tabular}
 \end{table}
@@ -324,10 +331,10 @@ What's next     &  The results for the output angles for the plot of the image d
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
 Date/Time/Place & 13/06/24, 15.00-16.00, SP \\ \hline
-What            &  Programming\\ \hline
+What            &  Rewriting finding of time difference\\ \hline
 Who             &  CM\\ \hline
-How             & Finding the average over a bunch of mics instead of two. \\ \hline
-What's next     &  Expanding on this and crying \\ \hline
+How             & Finding the average over a bunch of mics instead of two. Also using scipy now, rather than looking at just the peaks for the time difference. This should make the code less prone to noise.\\ \hline
+What's next     &  Trying out this code. We should also make a deadline on when to make our final measurement, even if the code doesn't work well enough, because the deadline is coming closer.\\ \hline
 \end{tabular}
 \end{table}
 
@@ -335,10 +342,10 @@ What's next     &  Expanding on this and crying \\ \hline
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
 Date/Time/Place & 13/06/24, 15.00-16.00, SP \\ \hline
-What            & Studying literature wave equation in matter \\ \hline
+What            & Studying literature; wave equation in matter \\ \hline
 Who             & SM \\ \hline
-How             & Studying Foerier and transverse waves to implement this knowledge in the poster \\ \hline
-What's next     & more studying. \\ \hline
+How             & Studying Fourier and transverse waves to see if this is relevant for the poster  \\ \hline
+What's next     & more studying \\ \hline
 \end{tabular}
 \end{table}
 
@@ -416,9 +423,9 @@ What's next     & Finalising methods and working on results and discussion. \\ \
 \begin{tabular}{|p{1.5in}|p{4in}|}
 \hline
 Date/Time/Place & 17/06/24, 11.00-17.00, SP \\ \hline
-What            & Fixing code, writing about the way a solid metal tube vibrates and working on script for the animation \\ \hline
+What            & Fixing small patches of code that aren't really fundemental (drawing of the marker etc), writing about the way a solid metal tube vibrates and working on script for the animation\\ \hline
 Who             & CM,\\ \hline
-How             & By now calculating the average delta time over the whole array the amount of math error's has been reduced. \\ \hline
+How             & Reading literature and working stuff out.\\ \hline
 What's next     & Implementing theory in the poster, running final tests on the code and collecting the data.  \\ \hline
 \end{tabular}
 \end{table}
@@ -516,7 +523,7 @@ Date/Time/Place &  18/06/24, 15:00-17:00, SP\\ \hline
 What            &  Fixing code of this morning\\ \hline
 Who             &  CM\\ \hline
 How             &  Bashing head against table\\ \hline
-What's next     &  Try to record again tomorrow\\ \hline
+What's next     &  Try to record again tomorrow. Tomorrow will be final test day. If code doesn't work, we have no results :(\\ \hline
 \end{tabular}
 \end{table}
 
@@ -739,6 +746,41 @@ What            & Writing apa sources for animation and adding more information 
 Who             & JN \\ \hline
 How             &  \\ \hline
 What's next     & Finishing animation and minutes \\ \hline
+\end{tabular}
+\end{table}
+
+\section{26/06/24}
+
+\begin{table}[H]
+\begin{tabular}{|p{1.5in}|p{4in}|}
+\hline
+Date/Time/Place & 26/06/24, 10.00-15.00, SP \\ \hline
+What            & Finishing animation, rounding up minutes, practicing for presentation \\ \hline
+Who             & AL, CM, SM, JN \\ \hline
+How             & Sitting outside at the Oerknal working on the last parts \\ \hline
+What's next     & Handing everything in. \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|p{1.5in}|p{4in}|}
+\hline
+Date/Time/Place &  \\ \hline
+What            &  \\ \hline
+Who             &  \\ \hline
+How             &  \\ \hline
+What's next     &  \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\begin{tabular}{|p{1.5in}|p{4in}|}
+\hline
+Date/Time/Place &  \\ \hline
+What            &  \\ \hline
+Who             &  \\ \hline
+How             &  \\ \hline
+What's next     &  \\ \hline
 \end{tabular}
 \end{table}
 
